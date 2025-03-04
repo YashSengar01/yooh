@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+
+    <!-- Contact Form -->
+    <form action="#" method="post">
+        <table border="1" cellpadding="10">
+            <tr>
+                <td><label for="name">Full Name:</label></td>
+                <td><input type="text" id="name" name="name" value="Yash sengar" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" value="Yashsengar01@example.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" value="9312326542" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><textarea id="message" name="message" required>Enter your message here...</textarea></td>
+            </tr>
+            <tr>
+                <td><label>Employee Type:</label></td>
+                <td>
+                    <input type="radio" id="salaried" name="employee_type" value="Salaried" checked required>
+                    <label for="salaried">Salaried</label>
+                    <input type="radio" id="business" name="employee_type" value="Own Business" required>
+                    <label for="business">Own Business</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="programming">Programming Language:</label></td>
+                <td>
+                    <select id="programming" name="programming" required>
+                        <optgroup label="JavaScript">
+                            <option value="Angular">Angular</option>
+                            <option value="React">React</option>
+                            <option value="Vue.js">Vue.js</option>
+                        </optgroup>
+                        <optgroup label="Python">
+                            <option value="Django">Django Framework</option>
+                            <option value="Flask">Flask Framework</option>
+                        </optgroup>
+                        <optgroup label="Java">
+                            <option value="Spring">Spring</option>
+                            <option value="Maven">Maven</option>
+                            <option value="Hibernate">Hibernate</option>
+                        </optgroup>
+                        <optgroup label="Database">
+                            <option value="MySQL">MySQL</option>
+                            <option value="MongoDB">MongoDB</option>
+                            <option value="Cassandra">Cassandra</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+
+    <!-- Link to open Google in a new tab -->
+    <a href="https://google.com" target="_blank">Open Google</a>
+
+    <br><br>
+
+    <!-- Highlighting text without CSS -->
+    <marquee><strong>HTML & CSS is awesome</strong></marquee>
+
+    <br><br>
+
+    <!-- Page with all input elements -->
+    <h2>All Input Elements</h2>
+    <form>
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text" value="Default Text"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="123456"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="example@email.com"><br><br>
+
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" value="10"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="2024-02-28"><br><br>
+
+        <label for="datetime-local">Datetime Local:</label>
+        <input type="datetime-local" id="datetime-local" name="datetime-local" value="2024-02-28T12:30"><br><br>
+
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#ff5733"><br><br>
+
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="1" max="100" value="50"><br><br>
+
+        <label for="file">File Upload:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox" checked><br><br>
+
+        <label for="radio1">Radio Button 1:</label>
+        <input type="salaried" id="radio1" name="radio-group" value="Option 1" checked>
+        <label for="radio2">Radio Button 2:</label>
+        <input type="own bussines" id="radio2" name="radio-group" value="Option 2"><br><br>
+
+        <label for="textarea">Textarea:</label>
+        <textarea id="textarea" name="textarea">Default Text</textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
